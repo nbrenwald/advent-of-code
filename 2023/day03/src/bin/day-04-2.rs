@@ -13,50 +13,39 @@ fn main() -> io::Result<()> {
 
     for line in read_to_string("data/day-04/sample.txt").unwrap().lines() {
         let line_str = line.to_string();
-        println!("{}", line_str);
+        
+        //println!("{}", line_str);
+        
         let caps = re.captures(&line_str).unwrap();
         let gameId: usize = caps.get(1).unwrap().as_str().parse().unwrap();
-        println!("gameId = {}", gameId);
+        
+        //println!("gameId = {}", gameId);
+        
         let winning_numbers = caps.get(2).unwrap().as_str();
-        let mut winning_numbers_set =  HashSet::new();
-        let winning_numbers_vector: Vec<&str> =  winning_numbers.split(" ").collect();
-        for s in winning_numbers_vector {
-            let x = s.trim();
-            if x != "" {
-                winning_numbers_set.insert(x);
-            }
-        }
+        let mut winning_numbers_set: HashSet<&str> = winning_numbers
+            .split(" ")
+            .map(|s| s.trim())
+            .filter(|s| !s.is_empty())
+            .collect();
+        
         let my_numbers = caps.get(3).unwrap().as_str();
-        let my_numbers_vector: Vec<&str> = my_numbers.split(' ').collect();
+        let my_numbers_set: HashSet<&str> = my_numbers
+            .split(' ')
+            .map(|s| s.trim())
+            .filter(|s| !s.is_empty())
+            .collect();
 
-       let mut game_total = 0;
-       let mut number_of_matches = 0;
-       for i in my_numbers_vector.iter() {
-           println!("Checking {}", i);
-         if winning_numbers_set.contains(i) {
-             println!("found");
-             number_of_matches += 1;
-            if game_total == 0 {
-                game_total = 1;
-            }
-            else {
-                game_total = game_total * 2;
-            }
-         }
-       }
+       let result: HashSet<&&str> = winning_numbers_set.intersection(&my_numbers_set).collect();
+       let mut number_of_matches = result.len();
+       let mut game_total = 2 ^ result.len();
+       
         let c = copies.get(&gameId).unwrap_or(&0) +1;
          while number_of_matches > 0 {
-             println!("GameId {}, matches {}", gameId, number_of_matches);
+             //println!("GameId {}, matches {}", gameId, number_of_matches);
              *copies.entry(gameId+number_of_matches).or_insert(0) += 1 * c;
              number_of_matches -= 1;
          }
-
-
-
-
        scores.insert(gameId, game_total);
-       //total += game_total;
-
     }
     for (key, value) in scores {
         let c = copies.get(&key).unwrap_or(&0)+1;
