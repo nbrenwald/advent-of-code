@@ -3,7 +3,6 @@ use std::collections::HashMap;
 use std::io::{self, prelude::*, BufReader};
 use std::collections::HashSet;
 use std::cmp;
-use rayon::prelude::*;
 
 fn main() -> io::Result<()> {
 // pares each HashMap
@@ -20,7 +19,7 @@ let mut light_to_temperature: Vec<(i64,i64,i64)> = Vec::new();
 let mut temperature_to_humidity: Vec<(i64,i64,i64)> = Vec::new();
 let mut humidity_to_location: Vec<(i64,i64,i64)> = Vec::new();
 //let seeds: Vec<i64> = vec![79, 14, 55, 13]; <Down>
-let seeds: Vec<(i64, i64)> = vec![(202517468, 131640971), (1553776977, 241828580), (1435322022, 100369067), (2019100043, 153706556), (460203450, 84630899), (3766866638, 114261107), (1809826083, 153144153), (2797169753, 177517156), (2494032210, 235157184), (856311572, 542740109)]; 
+let seeds: Vec<i64> = vec![202517468, 131640971, 1553776977, 241828580, 1435322022, 100369067, 2019100043, 153706556, 460203450, 84630899, 3766866638, 114261107, 1809826083, 153144153, 2797169753, 177517156, 2494032210, 235157184, 856311572, 542740109]; 
     for line in read_to_string("sample.txt").unwrap().lines() {
         let line_str = line.to_string();
         println!("{}", line_str);
@@ -67,15 +66,10 @@ let seeds: Vec<(i64, i64)> = vec![(202517468, 131640971), (1553776977, 241828580
 
     }
 
-    seeds.par_iter().for_each(|seed| {
-            let mut min_location = std::i64::MAX;
-
-      let mut range = 0;
-      println!("Checking seed{:?}", seed);
-      while range < seed.1 {
-      let s = seed.0+range;
-      //println!("Checking seed {}", s);
-      let soil =  convert(&seed_to_soil, s);
+    let mut min_location = std::i64::MAX;
+    for seed in seeds.iter() {
+      println!("Checking seed {}", seed);
+      let soil =  convert(&seed_to_soil, *seed);
       let fertilizer = convert(&soil_to_fertilizer, soil);
       let water = convert(&fertilizer_to_water, fertilizer);
       let light = convert(&water_to_light, water);
@@ -84,13 +78,8 @@ let seeds: Vec<(i64, i64)> = vec![(202517468, 131640971), (1553776977, 241828580
       let location = convert(&humidity_to_location, humidity);
 
       min_location = cmp::min(min_location, location);
-      range += 1;
-      }
-
-
-
+    }
     println!("min location {}", min_location);
-    });
 Ok(())
 }
 
