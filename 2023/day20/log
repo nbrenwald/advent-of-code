@@ -1,0 +1,627 @@
+Create Vertex 0 0 Above 0
+(0, 0) Above 0
+Edges [(Vertex { pos: (0, 1), d: Left, straight: 0 }, 4), (Vertex { pos: (1, 0), d: Above, straight: 1 }, 3)]
+Create Vertex 0 0 Above 1
+(0, 0) Above 1
+Edges [(Vertex { pos: (0, 1), d: Left, straight: 0 }, 4), (Vertex { pos: (1, 0), d: Above, straight: 2 }, 3)]
+Create Vertex 0 0 Above 2
+(0, 0) Above 2
+Edges [(Vertex { pos: (0, 1), d: Left, straight: 0 }, 4), (Vertex { pos: (1, 0), d: Above, straight: 3 }, 3)]
+Create Vertex 0 0 Above 3
+(0, 0) Above 3
+Edges [(Vertex { pos: (0, 1), d: Left, straight: 0 }, 4)]
+Create Vertex 0 0 Below 0
+(0, 0) Below 0
+Edges [(Vertex { pos: (0, 1), d: Left, straight: 0 }, 4)]
+Create Vertex 0 0 Below 1
+(0, 0) Below 1
+Edges [(Vertex { pos: (0, 1), d: Left, straight: 0 }, 4)]
+Create Vertex 0 0 Below 2
+(0, 0) Below 2
+Edges [(Vertex { pos: (0, 1), d: Left, straight: 0 }, 4)]
+Create Vertex 0 0 Below 3
+(0, 0) Below 3
+Edges [(Vertex { pos: (0, 1), d: Left, straight: 0 }, 4)]
+Create Vertex 0 0 Left 0
+(0, 0) Left 0
+Edges [(Vertex { pos: (1, 0), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 1), d: Left, straight: 1 }, 4)]
+Create Vertex 0 0 Left 1
+(0, 0) Left 1
+Edges [(Vertex { pos: (1, 0), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 1), d: Left, straight: 2 }, 4)]
+Create Vertex 0 0 Left 2
+(0, 0) Left 2
+Edges [(Vertex { pos: (1, 0), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 1), d: Left, straight: 3 }, 4)]
+Create Vertex 0 0 Left 3
+(0, 0) Left 3
+Edges [(Vertex { pos: (1, 0), d: Above, straight: 0 }, 3)]
+Create Vertex 0 0 Right 0
+(0, 0) Right 0
+Edges [(Vertex { pos: (1, 0), d: Above, straight: 0 }, 3)]
+Create Vertex 0 0 Right 1
+(0, 0) Right 1
+Edges [(Vertex { pos: (1, 0), d: Above, straight: 0 }, 3)]
+Create Vertex 0 0 Right 2
+(0, 0) Right 2
+Edges [(Vertex { pos: (1, 0), d: Above, straight: 0 }, 3)]
+Create Vertex 0 0 Right 3
+(0, 0) Right 3
+Edges [(Vertex { pos: (1, 0), d: Above, straight: 0 }, 3)]
+Create Vertex 0 1 Above 0
+(0, 1) Above 0
+Edges [(Vertex { pos: (0, 0), d: Right, straight: 0 }, 2), (Vertex { pos: (0, 2), d: Left, straight: 0 }, 1), (Vertex { pos: (1, 1), d: Above, straight: 1 }, 2)]
+Create Vertex 0 1 Above 1
+(0, 1) Above 1
+Edges [(Vertex { pos: (0, 0), d: Right, straight: 0 }, 2), (Vertex { pos: (0, 2), d: Left, straight: 0 }, 1), (Vertex { pos: (1, 1), d: Above, straight: 2 }, 2)]
+Create Vertex 0 1 Above 2
+(0, 1) Above 2
+Edges [(Vertex { pos: (0, 0), d: Right, straight: 0 }, 2), (Vertex { pos: (0, 2), d: Left, straight: 0 }, 1), (Vertex { pos: (1, 1), d: Above, straight: 3 }, 2)]
+Create Vertex 0 1 Above 3
+(0, 1) Above 3
+Edges [(Vertex { pos: (0, 0), d: Right, straight: 0 }, 2), (Vertex { pos: (0, 2), d: Left, straight: 0 }, 1)]
+Create Vertex 0 1 Below 0
+(0, 1) Below 0
+Edges [(Vertex { pos: (0, 0), d: Right, straight: 0 }, 2), (Vertex { pos: (0, 2), d: Left, straight: 0 }, 1)]
+Create Vertex 0 1 Below 1
+(0, 1) Below 1
+Edges [(Vertex { pos: (0, 0), d: Right, straight: 0 }, 2), (Vertex { pos: (0, 2), d: Left, straight: 0 }, 1)]
+Create Vertex 0 1 Below 2
+(0, 1) Below 2
+Edges [(Vertex { pos: (0, 0), d: Right, straight: 0 }, 2), (Vertex { pos: (0, 2), d: Left, straight: 0 }, 1)]
+Create Vertex 0 1 Below 3
+(0, 1) Below 3
+Edges [(Vertex { pos: (0, 0), d: Right, straight: 0 }, 2), (Vertex { pos: (0, 2), d: Left, straight: 0 }, 1)]
+Create Vertex 0 1 Left 0
+(0, 1) Left 0
+Edges [(Vertex { pos: (1, 1), d: Above, straight: 0 }, 2), (Vertex { pos: (0, 2), d: Left, straight: 1 }, 1)]
+Create Vertex 0 1 Left 1
+(0, 1) Left 1
+Edges [(Vertex { pos: (1, 1), d: Above, straight: 0 }, 2), (Vertex { pos: (0, 2), d: Left, straight: 2 }, 1)]
+Create Vertex 0 1 Left 2
+(0, 1) Left 2
+Edges [(Vertex { pos: (1, 1), d: Above, straight: 0 }, 2), (Vertex { pos: (0, 2), d: Left, straight: 3 }, 1)]
+Create Vertex 0 1 Left 3
+(0, 1) Left 3
+Edges [(Vertex { pos: (1, 1), d: Above, straight: 0 }, 2)]
+Create Vertex 0 1 Right 0
+(0, 1) Right 0
+Edges [(Vertex { pos: (1, 1), d: Above, straight: 0 }, 2), (Vertex { pos: (0, 0), d: Right, straight: 1 }, 2)]
+Create Vertex 0 1 Right 1
+(0, 1) Right 1
+Edges [(Vertex { pos: (1, 1), d: Above, straight: 0 }, 2), (Vertex { pos: (0, 0), d: Right, straight: 2 }, 2)]
+Create Vertex 0 1 Right 2
+(0, 1) Right 2
+Edges [(Vertex { pos: (1, 1), d: Above, straight: 0 }, 2), (Vertex { pos: (0, 0), d: Right, straight: 3 }, 2)]
+Create Vertex 0 1 Right 3
+(0, 1) Right 3
+Edges [(Vertex { pos: (1, 1), d: Above, straight: 0 }, 2)]
+Create Vertex 0 2 Above 0
+(0, 2) Above 0
+Edges [(Vertex { pos: (0, 1), d: Right, straight: 0 }, 4), (Vertex { pos: (0, 3), d: Left, straight: 0 }, 3), (Vertex { pos: (1, 2), d: Above, straight: 1 }, 1)]
+Create Vertex 0 2 Above 1
+(0, 2) Above 1
+Edges [(Vertex { pos: (0, 1), d: Right, straight: 0 }, 4), (Vertex { pos: (0, 3), d: Left, straight: 0 }, 3), (Vertex { pos: (1, 2), d: Above, straight: 2 }, 1)]
+Create Vertex 0 2 Above 2
+(0, 2) Above 2
+Edges [(Vertex { pos: (0, 1), d: Right, straight: 0 }, 4), (Vertex { pos: (0, 3), d: Left, straight: 0 }, 3), (Vertex { pos: (1, 2), d: Above, straight: 3 }, 1)]
+Create Vertex 0 2 Above 3
+(0, 2) Above 3
+Edges [(Vertex { pos: (0, 1), d: Right, straight: 0 }, 4), (Vertex { pos: (0, 3), d: Left, straight: 0 }, 3)]
+Create Vertex 0 2 Below 0
+(0, 2) Below 0
+Edges [(Vertex { pos: (0, 1), d: Right, straight: 0 }, 4), (Vertex { pos: (0, 3), d: Left, straight: 0 }, 3)]
+Create Vertex 0 2 Below 1
+(0, 2) Below 1
+Edges [(Vertex { pos: (0, 1), d: Right, straight: 0 }, 4), (Vertex { pos: (0, 3), d: Left, straight: 0 }, 3)]
+Create Vertex 0 2 Below 2
+(0, 2) Below 2
+Edges [(Vertex { pos: (0, 1), d: Right, straight: 0 }, 4), (Vertex { pos: (0, 3), d: Left, straight: 0 }, 3)]
+Create Vertex 0 2 Below 3
+(0, 2) Below 3
+Edges [(Vertex { pos: (0, 1), d: Right, straight: 0 }, 4), (Vertex { pos: (0, 3), d: Left, straight: 0 }, 3)]
+Create Vertex 0 2 Left 0
+(0, 2) Left 0
+Edges [(Vertex { pos: (1, 2), d: Above, straight: 0 }, 1), (Vertex { pos: (0, 3), d: Left, straight: 1 }, 3)]
+Create Vertex 0 2 Left 1
+(0, 2) Left 1
+Edges [(Vertex { pos: (1, 2), d: Above, straight: 0 }, 1), (Vertex { pos: (0, 3), d: Left, straight: 2 }, 3)]
+Create Vertex 0 2 Left 2
+(0, 2) Left 2
+Edges [(Vertex { pos: (1, 2), d: Above, straight: 0 }, 1), (Vertex { pos: (0, 3), d: Left, straight: 3 }, 3)]
+Create Vertex 0 2 Left 3
+(0, 2) Left 3
+Edges [(Vertex { pos: (1, 2), d: Above, straight: 0 }, 1)]
+Create Vertex 0 2 Right 0
+(0, 2) Right 0
+Edges [(Vertex { pos: (1, 2), d: Above, straight: 0 }, 1), (Vertex { pos: (0, 1), d: Right, straight: 1 }, 4)]
+Create Vertex 0 2 Right 1
+(0, 2) Right 1
+Edges [(Vertex { pos: (1, 2), d: Above, straight: 0 }, 1), (Vertex { pos: (0, 1), d: Right, straight: 2 }, 4)]
+Create Vertex 0 2 Right 2
+(0, 2) Right 2
+Edges [(Vertex { pos: (1, 2), d: Above, straight: 0 }, 1), (Vertex { pos: (0, 1), d: Right, straight: 3 }, 4)]
+Create Vertex 0 2 Right 3
+(0, 2) Right 3
+Edges [(Vertex { pos: (1, 2), d: Above, straight: 0 }, 1)]
+Create Vertex 0 3 Above 0
+(0, 3) Above 0
+Edges [(Vertex { pos: (0, 2), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 4), d: Left, straight: 0 }, 4), (Vertex { pos: (1, 3), d: Above, straight: 1 }, 5)]
+Create Vertex 0 3 Above 1
+(0, 3) Above 1
+Edges [(Vertex { pos: (0, 2), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 4), d: Left, straight: 0 }, 4), (Vertex { pos: (1, 3), d: Above, straight: 2 }, 5)]
+Create Vertex 0 3 Above 2
+(0, 3) Above 2
+Edges [(Vertex { pos: (0, 2), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 4), d: Left, straight: 0 }, 4), (Vertex { pos: (1, 3), d: Above, straight: 3 }, 5)]
+Create Vertex 0 3 Above 3
+(0, 3) Above 3
+Edges [(Vertex { pos: (0, 2), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 4), d: Left, straight: 0 }, 4)]
+Create Vertex 0 3 Below 0
+(0, 3) Below 0
+Edges [(Vertex { pos: (0, 2), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 4), d: Left, straight: 0 }, 4)]
+Create Vertex 0 3 Below 1
+(0, 3) Below 1
+Edges [(Vertex { pos: (0, 2), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 4), d: Left, straight: 0 }, 4)]
+Create Vertex 0 3 Below 2
+(0, 3) Below 2
+Edges [(Vertex { pos: (0, 2), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 4), d: Left, straight: 0 }, 4)]
+Create Vertex 0 3 Below 3
+(0, 3) Below 3
+Edges [(Vertex { pos: (0, 2), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 4), d: Left, straight: 0 }, 4)]
+Create Vertex 0 3 Left 0
+(0, 3) Left 0
+Edges [(Vertex { pos: (1, 3), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 4), d: Left, straight: 1 }, 4)]
+Create Vertex 0 3 Left 1
+(0, 3) Left 1
+Edges [(Vertex { pos: (1, 3), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 4), d: Left, straight: 2 }, 4)]
+Create Vertex 0 3 Left 2
+(0, 3) Left 2
+Edges [(Vertex { pos: (1, 3), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 4), d: Left, straight: 3 }, 4)]
+Create Vertex 0 3 Left 3
+(0, 3) Left 3
+Edges [(Vertex { pos: (1, 3), d: Above, straight: 0 }, 5)]
+Create Vertex 0 3 Right 0
+(0, 3) Right 0
+Edges [(Vertex { pos: (1, 3), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 2), d: Right, straight: 1 }, 1)]
+Create Vertex 0 3 Right 1
+(0, 3) Right 1
+Edges [(Vertex { pos: (1, 3), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 2), d: Right, straight: 2 }, 1)]
+Create Vertex 0 3 Right 2
+(0, 3) Right 2
+Edges [(Vertex { pos: (1, 3), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 2), d: Right, straight: 3 }, 1)]
+Create Vertex 0 3 Right 3
+(0, 3) Right 3
+Edges [(Vertex { pos: (1, 3), d: Above, straight: 0 }, 5)]
+Create Vertex 0 4 Above 0
+(0, 4) Above 0
+Edges [(Vertex { pos: (0, 3), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 5), d: Left, straight: 0 }, 3), (Vertex { pos: (1, 4), d: Above, straight: 1 }, 4)]
+Create Vertex 0 4 Above 1
+(0, 4) Above 1
+Edges [(Vertex { pos: (0, 3), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 5), d: Left, straight: 0 }, 3), (Vertex { pos: (1, 4), d: Above, straight: 2 }, 4)]
+Create Vertex 0 4 Above 2
+(0, 4) Above 2
+Edges [(Vertex { pos: (0, 3), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 5), d: Left, straight: 0 }, 3), (Vertex { pos: (1, 4), d: Above, straight: 3 }, 4)]
+Create Vertex 0 4 Above 3
+(0, 4) Above 3
+Edges [(Vertex { pos: (0, 3), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 5), d: Left, straight: 0 }, 3)]
+Create Vertex 0 4 Below 0
+(0, 4) Below 0
+Edges [(Vertex { pos: (0, 3), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 5), d: Left, straight: 0 }, 3)]
+Create Vertex 0 4 Below 1
+(0, 4) Below 1
+Edges [(Vertex { pos: (0, 3), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 5), d: Left, straight: 0 }, 3)]
+Create Vertex 0 4 Below 2
+(0, 4) Below 2
+Edges [(Vertex { pos: (0, 3), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 5), d: Left, straight: 0 }, 3)]
+Create Vertex 0 4 Below 3
+(0, 4) Below 3
+Edges [(Vertex { pos: (0, 3), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 5), d: Left, straight: 0 }, 3)]
+Create Vertex 0 4 Left 0
+(0, 4) Left 0
+Edges [(Vertex { pos: (1, 4), d: Above, straight: 0 }, 4), (Vertex { pos: (0, 5), d: Left, straight: 1 }, 3)]
+Create Vertex 0 4 Left 1
+(0, 4) Left 1
+Edges [(Vertex { pos: (1, 4), d: Above, straight: 0 }, 4), (Vertex { pos: (0, 5), d: Left, straight: 2 }, 3)]
+Create Vertex 0 4 Left 2
+(0, 4) Left 2
+Edges [(Vertex { pos: (1, 4), d: Above, straight: 0 }, 4), (Vertex { pos: (0, 5), d: Left, straight: 3 }, 3)]
+Create Vertex 0 4 Left 3
+(0, 4) Left 3
+Edges [(Vertex { pos: (1, 4), d: Above, straight: 0 }, 4)]
+Create Vertex 0 4 Right 0
+(0, 4) Right 0
+Edges [(Vertex { pos: (1, 4), d: Above, straight: 0 }, 4), (Vertex { pos: (0, 3), d: Right, straight: 1 }, 3)]
+Create Vertex 0 4 Right 1
+(0, 4) Right 1
+Edges [(Vertex { pos: (1, 4), d: Above, straight: 0 }, 4), (Vertex { pos: (0, 3), d: Right, straight: 2 }, 3)]
+Create Vertex 0 4 Right 2
+(0, 4) Right 2
+Edges [(Vertex { pos: (1, 4), d: Above, straight: 0 }, 4), (Vertex { pos: (0, 3), d: Right, straight: 3 }, 3)]
+Create Vertex 0 4 Right 3
+(0, 4) Right 3
+Edges [(Vertex { pos: (1, 4), d: Above, straight: 0 }, 4)]
+Create Vertex 0 5 Above 0
+(0, 5) Above 0
+Edges [(Vertex { pos: (0, 4), d: Right, straight: 0 }, 4), (Vertex { pos: (0, 6), d: Left, straight: 0 }, 2), (Vertex { pos: (1, 5), d: Above, straight: 1 }, 5)]
+Create Vertex 0 5 Above 1
+(0, 5) Above 1
+Edges [(Vertex { pos: (0, 4), d: Right, straight: 0 }, 4), (Vertex { pos: (0, 6), d: Left, straight: 0 }, 2), (Vertex { pos: (1, 5), d: Above, straight: 2 }, 5)]
+Create Vertex 0 5 Above 2
+(0, 5) Above 2
+Edges [(Vertex { pos: (0, 4), d: Right, straight: 0 }, 4), (Vertex { pos: (0, 6), d: Left, straight: 0 }, 2), (Vertex { pos: (1, 5), d: Above, straight: 3 }, 5)]
+Create Vertex 0 5 Above 3
+(0, 5) Above 3
+Edges [(Vertex { pos: (0, 4), d: Right, straight: 0 }, 4), (Vertex { pos: (0, 6), d: Left, straight: 0 }, 2)]
+Create Vertex 0 5 Below 0
+(0, 5) Below 0
+Edges [(Vertex { pos: (0, 4), d: Right, straight: 0 }, 4), (Vertex { pos: (0, 6), d: Left, straight: 0 }, 2)]
+Create Vertex 0 5 Below 1
+(0, 5) Below 1
+Edges [(Vertex { pos: (0, 4), d: Right, straight: 0 }, 4), (Vertex { pos: (0, 6), d: Left, straight: 0 }, 2)]
+Create Vertex 0 5 Below 2
+(0, 5) Below 2
+Edges [(Vertex { pos: (0, 4), d: Right, straight: 0 }, 4), (Vertex { pos: (0, 6), d: Left, straight: 0 }, 2)]
+Create Vertex 0 5 Below 3
+(0, 5) Below 3
+Edges [(Vertex { pos: (0, 4), d: Right, straight: 0 }, 4), (Vertex { pos: (0, 6), d: Left, straight: 0 }, 2)]
+Create Vertex 0 5 Left 0
+(0, 5) Left 0
+Edges [(Vertex { pos: (1, 5), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 6), d: Left, straight: 1 }, 2)]
+Create Vertex 0 5 Left 1
+(0, 5) Left 1
+Edges [(Vertex { pos: (1, 5), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 6), d: Left, straight: 2 }, 2)]
+Create Vertex 0 5 Left 2
+(0, 5) Left 2
+Edges [(Vertex { pos: (1, 5), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 6), d: Left, straight: 3 }, 2)]
+Create Vertex 0 5 Left 3
+(0, 5) Left 3
+Edges [(Vertex { pos: (1, 5), d: Above, straight: 0 }, 5)]
+Create Vertex 0 5 Right 0
+(0, 5) Right 0
+Edges [(Vertex { pos: (1, 5), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 4), d: Right, straight: 1 }, 4)]
+Create Vertex 0 5 Right 1
+(0, 5) Right 1
+Edges [(Vertex { pos: (1, 5), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 4), d: Right, straight: 2 }, 4)]
+Create Vertex 0 5 Right 2
+(0, 5) Right 2
+Edges [(Vertex { pos: (1, 5), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 4), d: Right, straight: 3 }, 4)]
+Create Vertex 0 5 Right 3
+(0, 5) Right 3
+Edges [(Vertex { pos: (1, 5), d: Above, straight: 0 }, 5)]
+Create Vertex 0 6 Above 0
+(0, 6) Above 0
+Edges [(Vertex { pos: (0, 5), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 7), d: Left, straight: 0 }, 3), (Vertex { pos: (1, 6), d: Above, straight: 1 }, 3)]
+Create Vertex 0 6 Above 1
+(0, 6) Above 1
+Edges [(Vertex { pos: (0, 5), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 7), d: Left, straight: 0 }, 3), (Vertex { pos: (1, 6), d: Above, straight: 2 }, 3)]
+Create Vertex 0 6 Above 2
+(0, 6) Above 2
+Edges [(Vertex { pos: (0, 5), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 7), d: Left, straight: 0 }, 3), (Vertex { pos: (1, 6), d: Above, straight: 3 }, 3)]
+Create Vertex 0 6 Above 3
+(0, 6) Above 3
+Edges [(Vertex { pos: (0, 5), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 7), d: Left, straight: 0 }, 3)]
+Create Vertex 0 6 Below 0
+(0, 6) Below 0
+Edges [(Vertex { pos: (0, 5), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 7), d: Left, straight: 0 }, 3)]
+Create Vertex 0 6 Below 1
+(0, 6) Below 1
+Edges [(Vertex { pos: (0, 5), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 7), d: Left, straight: 0 }, 3)]
+Create Vertex 0 6 Below 2
+(0, 6) Below 2
+Edges [(Vertex { pos: (0, 5), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 7), d: Left, straight: 0 }, 3)]
+Create Vertex 0 6 Below 3
+(0, 6) Below 3
+Edges [(Vertex { pos: (0, 5), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 7), d: Left, straight: 0 }, 3)]
+Create Vertex 0 6 Left 0
+(0, 6) Left 0
+Edges [(Vertex { pos: (1, 6), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 7), d: Left, straight: 1 }, 3)]
+Create Vertex 0 6 Left 1
+(0, 6) Left 1
+Edges [(Vertex { pos: (1, 6), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 7), d: Left, straight: 2 }, 3)]
+Create Vertex 0 6 Left 2
+(0, 6) Left 2
+Edges [(Vertex { pos: (1, 6), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 7), d: Left, straight: 3 }, 3)]
+Create Vertex 0 6 Left 3
+(0, 6) Left 3
+Edges [(Vertex { pos: (1, 6), d: Above, straight: 0 }, 3)]
+Create Vertex 0 6 Right 0
+(0, 6) Right 0
+Edges [(Vertex { pos: (1, 6), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 5), d: Right, straight: 1 }, 3)]
+Create Vertex 0 6 Right 1
+(0, 6) Right 1
+Edges [(Vertex { pos: (1, 6), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 5), d: Right, straight: 2 }, 3)]
+Create Vertex 0 6 Right 2
+(0, 6) Right 2
+Edges [(Vertex { pos: (1, 6), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 5), d: Right, straight: 3 }, 3)]
+Create Vertex 0 6 Right 3
+(0, 6) Right 3
+Edges [(Vertex { pos: (1, 6), d: Above, straight: 0 }, 3)]
+Create Vertex 0 7 Above 0
+(0, 7) Above 0
+Edges [(Vertex { pos: (0, 6), d: Right, straight: 0 }, 2), (Vertex { pos: (0, 8), d: Left, straight: 0 }, 1), (Vertex { pos: (1, 7), d: Above, straight: 1 }, 5)]
+Create Vertex 0 7 Above 1
+(0, 7) Above 1
+Edges [(Vertex { pos: (0, 6), d: Right, straight: 0 }, 2), (Vertex { pos: (0, 8), d: Left, straight: 0 }, 1), (Vertex { pos: (1, 7), d: Above, straight: 2 }, 5)]
+Create Vertex 0 7 Above 2
+(0, 7) Above 2
+Edges [(Vertex { pos: (0, 6), d: Right, straight: 0 }, 2), (Vertex { pos: (0, 8), d: Left, straight: 0 }, 1), (Vertex { pos: (1, 7), d: Above, straight: 3 }, 5)]
+Create Vertex 0 7 Above 3
+(0, 7) Above 3
+Edges [(Vertex { pos: (0, 6), d: Right, straight: 0 }, 2), (Vertex { pos: (0, 8), d: Left, straight: 0 }, 1)]
+Create Vertex 0 7 Below 0
+(0, 7) Below 0
+Edges [(Vertex { pos: (0, 6), d: Right, straight: 0 }, 2), (Vertex { pos: (0, 8), d: Left, straight: 0 }, 1)]
+Create Vertex 0 7 Below 1
+(0, 7) Below 1
+Edges [(Vertex { pos: (0, 6), d: Right, straight: 0 }, 2), (Vertex { pos: (0, 8), d: Left, straight: 0 }, 1)]
+Create Vertex 0 7 Below 2
+(0, 7) Below 2
+Edges [(Vertex { pos: (0, 6), d: Right, straight: 0 }, 2), (Vertex { pos: (0, 8), d: Left, straight: 0 }, 1)]
+Create Vertex 0 7 Below 3
+(0, 7) Below 3
+Edges [(Vertex { pos: (0, 6), d: Right, straight: 0 }, 2), (Vertex { pos: (0, 8), d: Left, straight: 0 }, 1)]
+Create Vertex 0 7 Left 0
+(0, 7) Left 0
+Edges [(Vertex { pos: (1, 7), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 8), d: Left, straight: 1 }, 1)]
+Create Vertex 0 7 Left 1
+(0, 7) Left 1
+Edges [(Vertex { pos: (1, 7), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 8), d: Left, straight: 2 }, 1)]
+Create Vertex 0 7 Left 2
+(0, 7) Left 2
+Edges [(Vertex { pos: (1, 7), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 8), d: Left, straight: 3 }, 1)]
+Create Vertex 0 7 Left 3
+(0, 7) Left 3
+Edges [(Vertex { pos: (1, 7), d: Above, straight: 0 }, 5)]
+Create Vertex 0 7 Right 0
+(0, 7) Right 0
+Edges [(Vertex { pos: (1, 7), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 6), d: Right, straight: 1 }, 2)]
+Create Vertex 0 7 Right 1
+(0, 7) Right 1
+Edges [(Vertex { pos: (1, 7), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 6), d: Right, straight: 2 }, 2)]
+Create Vertex 0 7 Right 2
+(0, 7) Right 2
+Edges [(Vertex { pos: (1, 7), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 6), d: Right, straight: 3 }, 2)]
+Create Vertex 0 7 Right 3
+(0, 7) Right 3
+Edges [(Vertex { pos: (1, 7), d: Above, straight: 0 }, 5)]
+Create Vertex 0 8 Above 0
+(0, 8) Above 0
+Edges [(Vertex { pos: (0, 7), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 9), d: Left, straight: 0 }, 1), (Vertex { pos: (1, 8), d: Above, straight: 1 }, 3)]
+Create Vertex 0 8 Above 1
+(0, 8) Above 1
+Edges [(Vertex { pos: (0, 7), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 9), d: Left, straight: 0 }, 1), (Vertex { pos: (1, 8), d: Above, straight: 2 }, 3)]
+Create Vertex 0 8 Above 2
+(0, 8) Above 2
+Edges [(Vertex { pos: (0, 7), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 9), d: Left, straight: 0 }, 1), (Vertex { pos: (1, 8), d: Above, straight: 3 }, 3)]
+Create Vertex 0 8 Above 3
+(0, 8) Above 3
+Edges [(Vertex { pos: (0, 7), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 9), d: Left, straight: 0 }, 1)]
+Create Vertex 0 8 Below 0
+(0, 8) Below 0
+Edges [(Vertex { pos: (0, 7), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 9), d: Left, straight: 0 }, 1)]
+Create Vertex 0 8 Below 1
+(0, 8) Below 1
+Edges [(Vertex { pos: (0, 7), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 9), d: Left, straight: 0 }, 1)]
+Create Vertex 0 8 Below 2
+(0, 8) Below 2
+Edges [(Vertex { pos: (0, 7), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 9), d: Left, straight: 0 }, 1)]
+Create Vertex 0 8 Below 3
+(0, 8) Below 3
+Edges [(Vertex { pos: (0, 7), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 9), d: Left, straight: 0 }, 1)]
+Create Vertex 0 8 Left 0
+(0, 8) Left 0
+Edges [(Vertex { pos: (1, 8), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 9), d: Left, straight: 1 }, 1)]
+Create Vertex 0 8 Left 1
+(0, 8) Left 1
+Edges [(Vertex { pos: (1, 8), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 9), d: Left, straight: 2 }, 1)]
+Create Vertex 0 8 Left 2
+(0, 8) Left 2
+Edges [(Vertex { pos: (1, 8), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 9), d: Left, straight: 3 }, 1)]
+Create Vertex 0 8 Left 3
+(0, 8) Left 3
+Edges [(Vertex { pos: (1, 8), d: Above, straight: 0 }, 3)]
+Create Vertex 0 8 Right 0
+(0, 8) Right 0
+Edges [(Vertex { pos: (1, 8), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 7), d: Right, straight: 1 }, 3)]
+Create Vertex 0 8 Right 1
+(0, 8) Right 1
+Edges [(Vertex { pos: (1, 8), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 7), d: Right, straight: 2 }, 3)]
+Create Vertex 0 8 Right 2
+(0, 8) Right 2
+Edges [(Vertex { pos: (1, 8), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 7), d: Right, straight: 3 }, 3)]
+Create Vertex 0 8 Right 3
+(0, 8) Right 3
+Edges [(Vertex { pos: (1, 8), d: Above, straight: 0 }, 3)]
+Create Vertex 0 9 Above 0
+(0, 9) Above 0
+Edges [(Vertex { pos: (0, 8), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 10), d: Left, straight: 0 }, 3), (Vertex { pos: (1, 9), d: Above, straight: 1 }, 5)]
+Create Vertex 0 9 Above 1
+(0, 9) Above 1
+Edges [(Vertex { pos: (0, 8), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 10), d: Left, straight: 0 }, 3), (Vertex { pos: (1, 9), d: Above, straight: 2 }, 5)]
+Create Vertex 0 9 Above 2
+(0, 9) Above 2
+Edges [(Vertex { pos: (0, 8), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 10), d: Left, straight: 0 }, 3), (Vertex { pos: (1, 9), d: Above, straight: 3 }, 5)]
+Create Vertex 0 9 Above 3
+(0, 9) Above 3
+Edges [(Vertex { pos: (0, 8), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 10), d: Left, straight: 0 }, 3)]
+Create Vertex 0 9 Below 0
+(0, 9) Below 0
+Edges [(Vertex { pos: (0, 8), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 10), d: Left, straight: 0 }, 3)]
+Create Vertex 0 9 Below 1
+(0, 9) Below 1
+Edges [(Vertex { pos: (0, 8), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 10), d: Left, straight: 0 }, 3)]
+Create Vertex 0 9 Below 2
+(0, 9) Below 2
+Edges [(Vertex { pos: (0, 8), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 10), d: Left, straight: 0 }, 3)]
+Create Vertex 0 9 Below 3
+(0, 9) Below 3
+Edges [(Vertex { pos: (0, 8), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 10), d: Left, straight: 0 }, 3)]
+Create Vertex 0 9 Left 0
+(0, 9) Left 0
+Edges [(Vertex { pos: (1, 9), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 10), d: Left, straight: 1 }, 3)]
+Create Vertex 0 9 Left 1
+(0, 9) Left 1
+Edges [(Vertex { pos: (1, 9), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 10), d: Left, straight: 2 }, 3)]
+Create Vertex 0 9 Left 2
+(0, 9) Left 2
+Edges [(Vertex { pos: (1, 9), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 10), d: Left, straight: 3 }, 3)]
+Create Vertex 0 9 Left 3
+(0, 9) Left 3
+Edges [(Vertex { pos: (1, 9), d: Above, straight: 0 }, 5)]
+Create Vertex 0 9 Right 0
+(0, 9) Right 0
+Edges [(Vertex { pos: (1, 9), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 8), d: Right, straight: 1 }, 1)]
+Create Vertex 0 9 Right 1
+(0, 9) Right 1
+Edges [(Vertex { pos: (1, 9), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 8), d: Right, straight: 2 }, 1)]
+Create Vertex 0 9 Right 2
+(0, 9) Right 2
+Edges [(Vertex { pos: (1, 9), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 8), d: Right, straight: 3 }, 1)]
+Create Vertex 0 9 Right 3
+(0, 9) Right 3
+Edges [(Vertex { pos: (1, 9), d: Above, straight: 0 }, 5)]
+Create Vertex 0 10 Above 0
+(0, 10) Above 0
+Edges [(Vertex { pos: (0, 9), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 11), d: Left, straight: 0 }, 2), (Vertex { pos: (1, 10), d: Above, straight: 1 }, 6)]
+Create Vertex 0 10 Above 1
+(0, 10) Above 1
+Edges [(Vertex { pos: (0, 9), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 11), d: Left, straight: 0 }, 2), (Vertex { pos: (1, 10), d: Above, straight: 2 }, 6)]
+Create Vertex 0 10 Above 2
+(0, 10) Above 2
+Edges [(Vertex { pos: (0, 9), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 11), d: Left, straight: 0 }, 2), (Vertex { pos: (1, 10), d: Above, straight: 3 }, 6)]
+Create Vertex 0 10 Above 3
+(0, 10) Above 3
+Edges [(Vertex { pos: (0, 9), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 11), d: Left, straight: 0 }, 2)]
+Create Vertex 0 10 Below 0
+(0, 10) Below 0
+Edges [(Vertex { pos: (0, 9), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 11), d: Left, straight: 0 }, 2)]
+Create Vertex 0 10 Below 1
+(0, 10) Below 1
+Edges [(Vertex { pos: (0, 9), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 11), d: Left, straight: 0 }, 2)]
+Create Vertex 0 10 Below 2
+(0, 10) Below 2
+Edges [(Vertex { pos: (0, 9), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 11), d: Left, straight: 0 }, 2)]
+Create Vertex 0 10 Below 3
+(0, 10) Below 3
+Edges [(Vertex { pos: (0, 9), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 11), d: Left, straight: 0 }, 2)]
+Create Vertex 0 10 Left 0
+(0, 10) Left 0
+Edges [(Vertex { pos: (1, 10), d: Above, straight: 0 }, 6), (Vertex { pos: (0, 11), d: Left, straight: 1 }, 2)]
+Create Vertex 0 10 Left 1
+(0, 10) Left 1
+Edges [(Vertex { pos: (1, 10), d: Above, straight: 0 }, 6), (Vertex { pos: (0, 11), d: Left, straight: 2 }, 2)]
+Create Vertex 0 10 Left 2
+(0, 10) Left 2
+Edges [(Vertex { pos: (1, 10), d: Above, straight: 0 }, 6), (Vertex { pos: (0, 11), d: Left, straight: 3 }, 2)]
+Create Vertex 0 10 Left 3
+(0, 10) Left 3
+Edges [(Vertex { pos: (1, 10), d: Above, straight: 0 }, 6)]
+Create Vertex 0 10 Right 0
+(0, 10) Right 0
+Edges [(Vertex { pos: (1, 10), d: Above, straight: 0 }, 6), (Vertex { pos: (0, 9), d: Right, straight: 1 }, 1)]
+Create Vertex 0 10 Right 1
+(0, 10) Right 1
+Edges [(Vertex { pos: (1, 10), d: Above, straight: 0 }, 6), (Vertex { pos: (0, 9), d: Right, straight: 2 }, 1)]
+Create Vertex 0 10 Right 2
+(0, 10) Right 2
+Edges [(Vertex { pos: (1, 10), d: Above, straight: 0 }, 6), (Vertex { pos: (0, 9), d: Right, straight: 3 }, 1)]
+Create Vertex 0 10 Right 3
+(0, 10) Right 3
+Edges [(Vertex { pos: (1, 10), d: Above, straight: 0 }, 6)]
+Create Vertex 0 11 Above 0
+(0, 11) Above 0
+Edges [(Vertex { pos: (0, 10), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 12), d: Left, straight: 0 }, 3), (Vertex { pos: (1, 11), d: Above, straight: 1 }, 2)]
+Create Vertex 0 11 Above 1
+(0, 11) Above 1
+Edges [(Vertex { pos: (0, 10), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 12), d: Left, straight: 0 }, 3), (Vertex { pos: (1, 11), d: Above, straight: 2 }, 2)]
+Create Vertex 0 11 Above 2
+(0, 11) Above 2
+Edges [(Vertex { pos: (0, 10), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 12), d: Left, straight: 0 }, 3), (Vertex { pos: (1, 11), d: Above, straight: 3 }, 2)]
+Create Vertex 0 11 Above 3
+(0, 11) Above 3
+Edges [(Vertex { pos: (0, 10), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 12), d: Left, straight: 0 }, 3)]
+Create Vertex 0 11 Below 0
+(0, 11) Below 0
+Edges [(Vertex { pos: (0, 10), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 12), d: Left, straight: 0 }, 3)]
+Create Vertex 0 11 Below 1
+(0, 11) Below 1
+Edges [(Vertex { pos: (0, 10), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 12), d: Left, straight: 0 }, 3)]
+Create Vertex 0 11 Below 2
+(0, 11) Below 2
+Edges [(Vertex { pos: (0, 10), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 12), d: Left, straight: 0 }, 3)]
+Create Vertex 0 11 Below 3
+(0, 11) Below 3
+Edges [(Vertex { pos: (0, 10), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 12), d: Left, straight: 0 }, 3)]
+Create Vertex 0 11 Left 0
+(0, 11) Left 0
+Edges [(Vertex { pos: (1, 11), d: Above, straight: 0 }, 2), (Vertex { pos: (0, 12), d: Left, straight: 1 }, 3)]
+Create Vertex 0 11 Left 1
+(0, 11) Left 1
+Edges [(Vertex { pos: (1, 11), d: Above, straight: 0 }, 2), (Vertex { pos: (0, 12), d: Left, straight: 2 }, 3)]
+Create Vertex 0 11 Left 2
+(0, 11) Left 2
+Edges [(Vertex { pos: (1, 11), d: Above, straight: 0 }, 2), (Vertex { pos: (0, 12), d: Left, straight: 3 }, 3)]
+Create Vertex 0 11 Left 3
+(0, 11) Left 3
+Edges [(Vertex { pos: (1, 11), d: Above, straight: 0 }, 2)]
+Create Vertex 0 11 Right 0
+(0, 11) Right 0
+Edges [(Vertex { pos: (1, 11), d: Above, straight: 0 }, 2), (Vertex { pos: (0, 10), d: Right, straight: 1 }, 3)]
+Create Vertex 0 11 Right 1
+(0, 11) Right 1
+Edges [(Vertex { pos: (1, 11), d: Above, straight: 0 }, 2), (Vertex { pos: (0, 10), d: Right, straight: 2 }, 3)]
+Create Vertex 0 11 Right 2
+(0, 11) Right 2
+Edges [(Vertex { pos: (1, 11), d: Above, straight: 0 }, 2), (Vertex { pos: (0, 10), d: Right, straight: 3 }, 3)]
+Create Vertex 0 11 Right 3
+(0, 11) Right 3
+Edges [(Vertex { pos: (1, 11), d: Above, straight: 0 }, 2)]
+Create Vertex 0 12 Above 0
+(0, 12) Above 0
+Edges [(Vertex { pos: (0, 11), d: Right, straight: 0 }, 2), (Vertex { pos: (1, 12), d: Above, straight: 1 }, 3)]
+Create Vertex 0 12 Above 1
+(0, 12) Above 1
+Edges [(Vertex { pos: (0, 11), d: Right, straight: 0 }, 2), (Vertex { pos: (1, 12), d: Above, straight: 2 }, 3)]
+Create Vertex 0 12 Above 2
+(0, 12) Above 2
+Edges [(Vertex { pos: (0, 11), d: Right, straight: 0 }, 2), (Vertex { pos: (1, 12), d: Above, straight: 3 }, 3)]
+Create Vertex 0 12 Above 3
+(0, 12) Above 3
+Edges [(Vertex { pos: (0, 11), d: Right, straight: 0 }, 2)]
+Create Vertex 0 12 Below 0
+(0, 12) Below 0
+Edges [(Vertex { pos: (0, 11), d: Right, straight: 0 }, 2)]
+Create Vertex 0 12 Below 1
+(0, 12) Below 1
+Edges [(Vertex { pos: (0, 11), d: Right, straight: 0 }, 2)]
+Create Vertex 0 12 Below 2
+(0, 12) Below 2
+Edges [(Vertex { pos: (0, 11), d: Right, straight: 0 }, 2)]
+Create Vertex 0 12 Below 3
+(0, 12) Below 3
+Edges [(Vertex { pos: (0, 11), d: Right, straight: 0 }, 2)]
+Create Vertex 0 12 Left 0
+(0, 12) Left 0
+Edges [(Vertex { pos: (1, 12), d: Above, straight: 0 }, 3)]
+Create Vertex 0 12 Left 1
+(0, 12) Left 1
+Edges [(Vertex { pos: (1, 12), d: Above, straight: 0 }, 3)]
+Create Vertex 0 12 Left 2
+(0, 12) Left 2
+Edges [(Vertex { pos: (1, 12), d: Above, straight: 0 }, 3)]
+Create Vertex 0 12 Left 3
+(0, 12) Left 3
+Edges [(Vertex { pos: (1, 12), d: Above, straight: 0 }, 3)]
+Create Vertex 0 12 Right 0
+(0, 12) Right 0
+Edges [(Vertex { pos: (1, 12), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 11), d: Right, straight: 1 }, 2)]
+Create Vertex 0 12 Right 1
+(0, 12) Right 1
+Edges [(Vertex { pos: (1, 12), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 11), d: Right, straight: 2 }, 2)]
+Create Vertex 0 12 Right 2
+(0, 12) Right 2
+Edges [(Vertex { pos: (1, 12), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 11), d: Right, straight: 3 }, 2)]
+Create Vertex 0 12 Right 3
+(0, 12) Right 3
+Edges [(Vertex { pos: (1, 12), d: Above, straight: 0 }, 3)]
+graph = {Vertex { pos: (0, 7), d: Above, straight: 1 }: [(Vertex { pos: (0, 6), d: Right, straight: 0 }, 2), (Vertex { pos: (0, 8), d: Left, straight: 0 }, 1), (Vertex { pos: (1, 7), d: Above, straight: 2 }, 5)], Vertex { pos: (0, 11), d: Above, straight: 2 }: [(Vertex { pos: (0, 10), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 12), d: Left, straight: 0 }, 3), (Vertex { pos: (1, 11), d: Above, straight: 3 }, 2)], Vertex { pos: (0, 12), d: Right, straight: 2 }: [(Vertex { pos: (1, 12), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 11), d: Right, straight: 3 }, 2)], Vertex { pos: (0, 8), d: Above, straight: 0 }: [(Vertex { pos: (0, 7), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 9), d: Left, straight: 0 }, 1), (Vertex { pos: (1, 8), d: Above, straight: 1 }, 3)], Vertex { pos: (0, 0), d: Left, straight: 2 }: [(Vertex { pos: (1, 0), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 1), d: Left, straight: 3 }, 4)], Vertex { pos: (0, 8), d: Below, straight: 1 }: [(Vertex { pos: (0, 7), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 9), d: Left, straight: 0 }, 1)], Vertex { pos: (0, 2), d: Below, straight: 0 }: [(Vertex { pos: (0, 1), d: Right, straight: 0 }, 4), (Vertex { pos: (0, 3), d: Left, straight: 0 }, 3)], Vertex { pos: (0, 8), d: Above, straight: 3 }: [(Vertex { pos: (0, 7), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 9), d: Left, straight: 0 }, 1)], Vertex { pos: (0, 10), d: Right, straight: 0 }: [(Vertex { pos: (1, 10), d: Above, straight: 0 }, 6), (Vertex { pos: (0, 9), d: Right, straight: 1 }, 1)], Vertex { pos: (0, 9), d: Below, straight: 2 }: [(Vertex { pos: (0, 8), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 10), d: Left, straight: 0 }, 3)], Vertex { pos: (0, 4), d: Below, straight: 0 }: [(Vertex { pos: (0, 3), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 5), d: Left, straight: 0 }, 3)], Vertex { pos: (0, 10), d: Below, straight: 0 }: [(Vertex { pos: (0, 9), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 11), d: Left, straight: 0 }, 2)], Vertex { pos: (0, 2), d: Above, straight: 0 }: [(Vertex { pos: (0, 1), d: Right, straight: 0 }, 4), (Vertex { pos: (0, 3), d: Left, straight: 0 }, 3), (Vertex { pos: (1, 2), d: Above, straight: 1 }, 1)], Vertex { pos: (0, 4), d: Left, straight: 1 }: [(Vertex { pos: (1, 4), d: Above, straight: 0 }, 4), (Vertex { pos: (0, 5), d: Left, straight: 2 }, 3)], Vertex { pos: (0, 6), d: Right, straight: 0 }: [(Vertex { pos: (1, 6), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 5), d: Right, straight: 1 }, 3)], Vertex { pos: (0, 2), d: Below, straight: 2 }: [(Vertex { pos: (0, 1), d: Right, straight: 0 }, 4), (Vertex { pos: (0, 3), d: Left, straight: 0 }, 3)], Vertex { pos: (0, 6), d: Left, straight: 1 }: [(Vertex { pos: (1, 6), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 7), d: Left, straight: 2 }, 3)], Vertex { pos: (0, 6), d: Right, straight: 2 }: [(Vertex { pos: (1, 6), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 5), d: Right, straight: 3 }, 3)], Vertex { pos: (0, 7), d: Below, straight: 2 }: [(Vertex { pos: (0, 6), d: Right, straight: 0 }, 2), (Vertex { pos: (0, 8), d: Left, straight: 0 }, 1)], Vertex { pos: (0, 7), d: Right, straight: 1 }: [(Vertex { pos: (1, 7), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 6), d: Right, straight: 2 }, 2)], Vertex { pos: (0, 10), d: Right, straight: 1 }: [(Vertex { pos: (1, 10), d: Above, straight: 0 }, 6), (Vertex { pos: (0, 9), d: Right, straight: 2 }, 1)], Vertex { pos: (0, 7), d: Right, straight: 2 }: [(Vertex { pos: (1, 7), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 6), d: Right, straight: 3 }, 2)], Vertex { pos: (0, 6), d: Above, straight: 1 }: [(Vertex { pos: (0, 5), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 7), d: Left, straight: 0 }, 3), (Vertex { pos: (1, 6), d: Above, straight: 2 }, 3)], Vertex { pos: (0, 1), d: Right, straight: 2 }: [(Vertex { pos: (1, 1), d: Above, straight: 0 }, 2), (Vertex { pos: (0, 0), d: Right, straight: 3 }, 2)], Vertex { pos: (0, 10), d: Below, straight: 2 }: [(Vertex { pos: (0, 9), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 11), d: Left, straight: 0 }, 2)], Vertex { pos: (0, 2), d: Below, straight: 3 }: [(Vertex { pos: (0, 1), d: Right, straight: 0 }, 4), (Vertex { pos: (0, 3), d: Left, straight: 0 }, 3)], Vertex { pos: (0, 6), d: Left, straight: 3 }: [(Vertex { pos: (1, 6), d: Above, straight: 0 }, 3)], Vertex { pos: (0, 11), d: Right, straight: 2 }: [(Vertex { pos: (1, 11), d: Above, straight: 0 }, 2), (Vertex { pos: (0, 10), d: Right, straight: 3 }, 3)], Vertex { pos: (0, 4), d: Above, straight: 3 }: [(Vertex { pos: (0, 3), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 5), d: Left, straight: 0 }, 3)], Vertex { pos: (0, 5), d: Left, straight: 3 }: [(Vertex { pos: (1, 5), d: Above, straight: 0 }, 5)], Vertex { pos: (0, 4), d: Right, straight: 0 }: [(Vertex { pos: (1, 4), d: Above, straight: 0 }, 4), (Vertex { pos: (0, 3), d: Right, straight: 1 }, 3)], Vertex { pos: (0, 0), d: Right, straight: 1 }: [(Vertex { pos: (1, 0), d: Above, straight: 0 }, 3)], Vertex { pos: (0, 2), d: Above, straight: 2 }: [(Vertex { pos: (0, 1), d: Right, straight: 0 }, 4), (Vertex { pos: (0, 3), d: Left, straight: 0 }, 3), (Vertex { pos: (1, 2), d: Above, straight: 3 }, 1)], Vertex { pos: (0, 10), d: Below, straight: 3 }: [(Vertex { pos: (0, 9), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 11), d: Left, straight: 0 }, 2)], Vertex { pos: (0, 2), d: Left, straight: 2 }: [(Vertex { pos: (1, 2), d: Above, straight: 0 }, 1), (Vertex { pos: (0, 3), d: Left, straight: 3 }, 3)], Vertex { pos: (0, 12), d: Above, straight: 1 }: [(Vertex { pos: (0, 11), d: Right, straight: 0 }, 2), (Vertex { pos: (1, 12), d: Above, straight: 2 }, 3)], Vertex { pos: (0, 8), d: Right, straight: 3 }: [(Vertex { pos: (1, 8), d: Above, straight: 0 }, 3)], Vertex { pos: (0, 6), d: Below, straight: 1 }: [(Vertex { pos: (0, 5), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 7), d: Left, straight: 0 }, 3)], Vertex { pos: (0, 1), d: Above, straight: 1 }: [(Vertex { pos: (0, 0), d: Right, straight: 0 }, 2), (Vertex { pos: (0, 2), d: Left, straight: 0 }, 1), (Vertex { pos: (1, 1), d: Above, straight: 2 }, 2)], Vertex { pos: (0, 10), d: Left, straight: 0 }: [(Vertex { pos: (1, 10), d: Above, straight: 0 }, 6), (Vertex { pos: (0, 11), d: Left, straight: 1 }, 2)], Vertex { pos: (0, 3), d: Left, straight: 3 }: [(Vertex { pos: (1, 3), d: Above, straight: 0 }, 5)], Vertex { pos: (0, 0), d: Below, straight: 3 }: [(Vertex { pos: (0, 1), d: Left, straight: 0 }, 4)], Vertex { pos: (0, 4), d: Right, straight: 1 }: [(Vertex { pos: (1, 4), d: Above, straight: 0 }, 4), (Vertex { pos: (0, 3), d: Right, straight: 2 }, 3)], Vertex { pos: (0, 4), d: Right, straight: 2 }: [(Vertex { pos: (1, 4), d: Above, straight: 0 }, 4), (Vertex { pos: (0, 3), d: Right, straight: 3 }, 3)], Vertex { pos: (0, 3), d: Right, straight: 0 }: [(Vertex { pos: (1, 3), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 2), d: Right, straight: 1 }, 1)], Vertex { pos: (0, 11), d: Above, straight: 0 }: [(Vertex { pos: (0, 10), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 12), d: Left, straight: 0 }, 3), (Vertex { pos: (1, 11), d: Above, straight: 1 }, 2)], Vertex { pos: (0, 2), d: Right, straight: 2 }: [(Vertex { pos: (1, 2), d: Above, straight: 0 }, 1), (Vertex { pos: (0, 1), d: Right, straight: 3 }, 4)], Vertex { pos: (0, 0), d: Right, straight: 0 }: [(Vertex { pos: (1, 0), d: Above, straight: 0 }, 3)], Vertex { pos: (0, 3), d: Left, straight: 2 }: [(Vertex { pos: (1, 3), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 4), d: Left, straight: 3 }, 4)], Vertex { pos: (0, 2), d: Below, straight: 1 }: [(Vertex { pos: (0, 1), d: Right, straight: 0 }, 4), (Vertex { pos: (0, 3), d: Left, straight: 0 }, 3)], Vertex { pos: (0, 4), d: Above, straight: 2 }: [(Vertex { pos: (0, 3), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 5), d: Left, straight: 0 }, 3), (Vertex { pos: (1, 4), d: Above, straight: 3 }, 4)], Vertex { pos: (0, 4), d: Below, straight: 3 }: [(Vertex { pos: (0, 3), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 5), d: Left, straight: 0 }, 3)], Vertex { pos: (0, 5), d: Right, straight: 3 }: [(Vertex { pos: (1, 5), d: Above, straight: 0 }, 5)], Vertex { pos: (0, 10), d: Right, straight: 2 }: [(Vertex { pos: (1, 10), d: Above, straight: 0 }, 6), (Vertex { pos: (0, 9), d: Right, straight: 3 }, 1)], Vertex { pos: (0, 2), d: Left, straight: 1 }: [(Vertex { pos: (1, 2), d: Above, straight: 0 }, 1), (Vertex { pos: (0, 3), d: Left, straight: 2 }, 3)], Vertex { pos: (0, 5), d: Below, straight: 1 }: [(Vertex { pos: (0, 4), d: Right, straight: 0 }, 4), (Vertex { pos: (0, 6), d: Left, straight: 0 }, 2)], Vertex { pos: (0, 6), d: Above, straight: 2 }: [(Vertex { pos: (0, 5), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 7), d: Left, straight: 0 }, 3), (Vertex { pos: (1, 6), d: Above, straight: 3 }, 3)], Vertex { pos: (0, 0), d: Below, straight: 0 }: [(Vertex { pos: (0, 1), d: Left, straight: 0 }, 4)], Vertex { pos: (0, 1), d: Above, straight: 0 }: [(Vertex { pos: (0, 0), d: Right, straight: 0 }, 2), (Vertex { pos: (0, 2), d: Left, straight: 0 }, 1), (Vertex { pos: (1, 1), d: Above, straight: 1 }, 2)], Vertex { pos: (0, 5), d: Below, straight: 0 }: [(Vertex { pos: (0, 4), d: Right, straight: 0 }, 4), (Vertex { pos: (0, 6), d: Left, straight: 0 }, 2)], Vertex { pos: (0, 8), d: Below, straight: 0 }: [(Vertex { pos: (0, 7), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 9), d: Left, straight: 0 }, 1)], Vertex { pos: (0, 11), d: Right, straight: 0 }: [(Vertex { pos: (1, 11), d: Above, straight: 0 }, 2), (Vertex { pos: (0, 10), d: Right, straight: 1 }, 3)], Vertex { pos: (0, 7), d: Left, straight: 0 }: [(Vertex { pos: (1, 7), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 8), d: Left, straight: 1 }, 1)], Vertex { pos: (0, 11), d: Right, straight: 3 }: [(Vertex { pos: (1, 11), d: Above, straight: 0 }, 2)], Vertex { pos: (0, 11), d: Right, straight: 1 }: [(Vertex { pos: (1, 11), d: Above, straight: 0 }, 2), (Vertex { pos: (0, 10), d: Right, straight: 2 }, 3)], Vertex { pos: (0, 7), d: Above, straight: 2 }: [(Vertex { pos: (0, 6), d: Right, straight: 0 }, 2), (Vertex { pos: (0, 8), d: Left, straight: 0 }, 1), (Vertex { pos: (1, 7), d: Above, straight: 3 }, 5)], Vertex { pos: (0, 3), d: Below, straight: 3 }: [(Vertex { pos: (0, 2), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 4), d: Left, straight: 0 }, 4)], Vertex { pos: (0, 1), d: Below, straight: 0 }: [(Vertex { pos: (0, 0), d: Right, straight: 0 }, 2), (Vertex { pos: (0, 2), d: Left, straight: 0 }, 1)], Vertex { pos: (0, 0), d: Below, straight: 1 }: [(Vertex { pos: (0, 1), d: Left, straight: 0 }, 4)], Vertex { pos: (0, 10), d: Left, straight: 1 }: [(Vertex { pos: (1, 10), d: Above, straight: 0 }, 6), (Vertex { pos: (0, 11), d: Left, straight: 2 }, 2)], Vertex { pos: (0, 12), d: Below, straight: 1 }: [(Vertex { pos: (0, 11), d: Right, straight: 0 }, 2)], Vertex { pos: (0, 12), d: Left, straight: 1 }: [(Vertex { pos: (1, 12), d: Above, straight: 0 }, 3)], Vertex { pos: (0, 2), d: Right, straight: 1 }: [(Vertex { pos: (1, 2), d: Above, straight: 0 }, 1), (Vertex { pos: (0, 1), d: Right, straight: 2 }, 4)], Vertex { pos: (0, 1), d: Left, straight: 0 }: [(Vertex { pos: (1, 1), d: Above, straight: 0 }, 2), (Vertex { pos: (0, 2), d: Left, straight: 1 }, 1)], Vertex { pos: (0, 4), d: Left, straight: 3 }: [(Vertex { pos: (1, 4), d: Above, straight: 0 }, 4)], Vertex { pos: (0, 5), d: Below, straight: 3 }: [(Vertex { pos: (0, 4), d: Right, straight: 0 }, 4), (Vertex { pos: (0, 6), d: Left, straight: 0 }, 2)], Vertex { pos: (0, 3), d: Above, straight: 3 }: [(Vertex { pos: (0, 2), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 4), d: Left, straight: 0 }, 4)], Vertex { pos: (0, 4), d: Below, straight: 1 }: [(Vertex { pos: (0, 3), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 5), d: Left, straight: 0 }, 3)], Vertex { pos: (0, 5), d: Above, straight: 1 }: [(Vertex { pos: (0, 4), d: Right, straight: 0 }, 4), (Vertex { pos: (0, 6), d: Left, straight: 0 }, 2), (Vertex { pos: (1, 5), d: Above, straight: 2 }, 5)], Vertex { pos: (0, 6), d: Right, straight: 1 }: [(Vertex { pos: (1, 6), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 5), d: Right, straight: 2 }, 3)], Vertex { pos: (0, 8), d: Right, straight: 1 }: [(Vertex { pos: (1, 8), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 7), d: Right, straight: 2 }, 3)], Vertex { pos: (0, 0), d: Below, straight: 2 }: [(Vertex { pos: (0, 1), d: Left, straight: 0 }, 4)], Vertex { pos: (0, 0), d: Above, straight: 1 }: [(Vertex { pos: (0, 1), d: Left, straight: 0 }, 4), (Vertex { pos: (1, 0), d: Above, straight: 2 }, 3)], Vertex { pos: (0, 5), d: Right, straight: 0 }: [(Vertex { pos: (1, 5), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 4), d: Right, straight: 1 }, 4)], Vertex { pos: (0, 8), d: Left, straight: 0 }: [(Vertex { pos: (1, 8), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 9), d: Left, straight: 1 }, 1)], Vertex { pos: (0, 9), d: Below, straight: 1 }: [(Vertex { pos: (0, 8), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 10), d: Left, straight: 0 }, 3)], Vertex { pos: (0, 11), d: Below, straight: 2 }: [(Vertex { pos: (0, 10), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 12), d: Left, straight: 0 }, 3)], Vertex { pos: (0, 1), d: Left, straight: 2 }: [(Vertex { pos: (1, 1), d: Above, straight: 0 }, 2), (Vertex { pos: (0, 2), d: Left, straight: 3 }, 1)], Vertex { pos: (0, 12), d: Below, straight: 3 }: [(Vertex { pos: (0, 11), d: Right, straight: 0 }, 2)], Vertex { pos: (0, 9), d: Above, straight: 1 }: [(Vertex { pos: (0, 8), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 10), d: Left, straight: 0 }, 3), (Vertex { pos: (1, 9), d: Above, straight: 2 }, 5)], Vertex { pos: (0, 10), d: Above, straight: 2 }: [(Vertex { pos: (0, 9), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 11), d: Left, straight: 0 }, 2), (Vertex { pos: (1, 10), d: Above, straight: 3 }, 6)], Vertex { pos: (0, 3), d: Right, straight: 1 }: [(Vertex { pos: (1, 3), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 2), d: Right, straight: 2 }, 1)], Vertex { pos: (0, 1), d: Above, straight: 2 }: [(Vertex { pos: (0, 0), d: Right, straight: 0 }, 2), (Vertex { pos: (0, 2), d: Left, straight: 0 }, 1), (Vertex { pos: (1, 1), d: Above, straight: 3 }, 2)], Vertex { pos: (0, 10), d: Above, straight: 1 }: [(Vertex { pos: (0, 9), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 11), d: Left, straight: 0 }, 2), (Vertex { pos: (1, 10), d: Above, straight: 2 }, 6)], Vertex { pos: (0, 9), d: Left, straight: 1 }: [(Vertex { pos: (1, 9), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 10), d: Left, straight: 2 }, 3)], Vertex { pos: (0, 7), d: Below, straight: 0 }: [(Vertex { pos: (0, 6), d: Right, straight: 0 }, 2), (Vertex { pos: (0, 8), d: Left, straight: 0 }, 1)], Vertex { pos: (0, 1), d: Below, straight: 3 }: [(Vertex { pos: (0, 0), d: Right, straight: 0 }, 2), (Vertex { pos: (0, 2), d: Left, straight: 0 }, 1)], Vertex { pos: (0, 8), d: Right, straight: 0 }: [(Vertex { pos: (1, 8), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 7), d: Right, straight: 1 }, 3)], Vertex { pos: (0, 9), d: Below, straight: 3 }: [(Vertex { pos: (0, 8), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 10), d: Left, straight: 0 }, 3)], Vertex { pos: (0, 3), d: Right, straight: 3 }: [(Vertex { pos: (1, 3), d: Above, straight: 0 }, 5)], Vertex { pos: (0, 4), d: Left, straight: 2 }: [(Vertex { pos: (1, 4), d: Above, straight: 0 }, 4), (Vertex { pos: (0, 5), d: Left, straight: 3 }, 3)], Vertex { pos: (0, 2), d: Above, straight: 3 }: [(Vertex { pos: (0, 1), d: Right, straight: 0 }, 4), (Vertex { pos: (0, 3), d: Left, straight: 0 }, 3)], Vertex { pos: (0, 6), d: Below, straight: 0 }: [(Vertex { pos: (0, 5), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 7), d: Left, straight: 0 }, 3)], Vertex { pos: (0, 4), d: Left, straight: 0 }: [(Vertex { pos: (1, 4), d: Above, straight: 0 }, 4), (Vertex { pos: (0, 5), d: Left, straight: 1 }, 3)], Vertex { pos: (0, 1), d: Right, straight: 3 }: [(Vertex { pos: (1, 1), d: Above, straight: 0 }, 2)], Vertex { pos: (0, 1), d: Left, straight: 3 }: [(Vertex { pos: (1, 1), d: Above, straight: 0 }, 2)], Vertex { pos: (0, 2), d: Left, straight: 3 }: [(Vertex { pos: (1, 2), d: Above, straight: 0 }, 1)], Vertex { pos: (0, 1), d: Above, straight: 3 }: [(Vertex { pos: (0, 0), d: Right, straight: 0 }, 2), (Vertex { pos: (0, 2), d: Left, straight: 0 }, 1)], Vertex { pos: (0, 6), d: Below, straight: 3 }: [(Vertex { pos: (0, 5), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 7), d: Left, straight: 0 }, 3)], Vertex { pos: (0, 8), d: Left, straight: 1 }: [(Vertex { pos: (1, 8), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 9), d: Left, straight: 2 }, 1)], Vertex { pos: (0, 9), d: Left, straight: 0 }: [(Vertex { pos: (1, 9), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 10), d: Left, straight: 1 }, 3)], Vertex { pos: (0, 9), d: Left, straight: 2 }: [(Vertex { pos: (1, 9), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 10), d: Left, straight: 3 }, 3)], Vertex { pos: (0, 10), d: Below, straight: 1 }: [(Vertex { pos: (0, 9), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 11), d: Left, straight: 0 }, 2)], Vertex { pos: (0, 3), d: Left, straight: 1 }: [(Vertex { pos: (1, 3), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 4), d: Left, straight: 2 }, 4)], Vertex { pos: (0, 0), d: Above, straight: 3 }: [(Vertex { pos: (0, 1), d: Left, straight: 0 }, 4)], Vertex { pos: (0, 10), d: Left, straight: 3 }: [(Vertex { pos: (1, 10), d: Above, straight: 0 }, 6)], Vertex { pos: (0, 9), d: Right, straight: 3 }: [(Vertex { pos: (1, 9), d: Above, straight: 0 }, 5)], Vertex { pos: (0, 10), d: Above, straight: 3 }: [(Vertex { pos: (0, 9), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 11), d: Left, straight: 0 }, 2)], Vertex { pos: (0, 11), d: Above, straight: 1 }: [(Vertex { pos: (0, 10), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 12), d: Left, straight: 0 }, 3), (Vertex { pos: (1, 11), d: Above, straight: 2 }, 2)], Vertex { pos: (0, 11), d: Below, straight: 0 }: [(Vertex { pos: (0, 10), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 12), d: Left, straight: 0 }, 3)], Vertex { pos: (0, 11), d: Below, straight: 1 }: [(Vertex { pos: (0, 10), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 12), d: Left, straight: 0 }, 3)], Vertex { pos: (0, 12), d: Below, straight: 0 }: [(Vertex { pos: (0, 11), d: Right, straight: 0 }, 2)], Vertex { pos: (0, 4), d: Right, straight: 3 }: [(Vertex { pos: (1, 4), d: Above, straight: 0 }, 4)], Vertex { pos: (0, 2), d: Right, straight: 0 }: [(Vertex { pos: (1, 2), d: Above, straight: 0 }, 1), (Vertex { pos: (0, 1), d: Right, straight: 1 }, 4)], Vertex { pos: (0, 10), d: Left, straight: 2 }: [(Vertex { pos: (1, 10), d: Above, straight: 0 }, 6), (Vertex { pos: (0, 11), d: Left, straight: 3 }, 2)], Vertex { pos: (0, 12), d: Below, straight: 2 }: [(Vertex { pos: (0, 11), d: Right, straight: 0 }, 2)], Vertex { pos: (0, 11), d: Left, straight: 3 }: [(Vertex { pos: (1, 11), d: Above, straight: 0 }, 2)], Vertex { pos: (0, 5), d: Right, straight: 2 }: [(Vertex { pos: (1, 5), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 4), d: Right, straight: 3 }, 4)], Vertex { pos: (0, 6), d: Right, straight: 3 }: [(Vertex { pos: (1, 6), d: Above, straight: 0 }, 3)], Vertex { pos: (0, 8), d: Above, straight: 2 }: [(Vertex { pos: (0, 7), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 9), d: Left, straight: 0 }, 1), (Vertex { pos: (1, 8), d: Above, straight: 3 }, 3)], Vertex { pos: (0, 4), d: Above, straight: 0 }: [(Vertex { pos: (0, 3), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 5), d: Left, straight: 0 }, 3), (Vertex { pos: (1, 4), d: Above, straight: 1 }, 4)], Vertex { pos: (0, 7), d: Below, straight: 3 }: [(Vertex { pos: (0, 6), d: Right, straight: 0 }, 2), (Vertex { pos: (0, 8), d: Left, straight: 0 }, 1)], Vertex { pos: (0, 9), d: Right, straight: 1 }: [(Vertex { pos: (1, 9), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 8), d: Right, straight: 2 }, 1)], Vertex { pos: (0, 9), d: Right, straight: 2 }: [(Vertex { pos: (1, 9), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 8), d: Right, straight: 3 }, 1)], Vertex { pos: (0, 4), d: Below, straight: 2 }: [(Vertex { pos: (0, 3), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 5), d: Left, straight: 0 }, 3)], Vertex { pos: (0, 12), d: Above, straight: 3 }: [(Vertex { pos: (0, 11), d: Right, straight: 0 }, 2)], Vertex { pos: (0, 9), d: Left, straight: 3 }: [(Vertex { pos: (1, 9), d: Above, straight: 0 }, 5)], Vertex { pos: (0, 12), d: Right, straight: 3 }: [(Vertex { pos: (1, 12), d: Above, straight: 0 }, 3)], Vertex { pos: (0, 3), d: Below, straight: 0 }: [(Vertex { pos: (0, 2), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 4), d: Left, straight: 0 }, 4)], Vertex { pos: (0, 5), d: Left, straight: 0 }: [(Vertex { pos: (1, 5), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 6), d: Left, straight: 1 }, 2)], Vertex { pos: (0, 1), d: Right, straight: 1 }: [(Vertex { pos: (1, 1), d: Above, straight: 0 }, 2), (Vertex { pos: (0, 0), d: Right, straight: 2 }, 2)], Vertex { pos: (0, 9), d: Below, straight: 0 }: [(Vertex { pos: (0, 8), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 10), d: Left, straight: 0 }, 3)], Vertex { pos: (0, 7), d: Above, straight: 0 }: [(Vertex { pos: (0, 6), d: Right, straight: 0 }, 2), (Vertex { pos: (0, 8), d: Left, straight: 0 }, 1), (Vertex { pos: (1, 7), d: Above, straight: 1 }, 5)], Vertex { pos: (0, 12), d: Right, straight: 1 }: [(Vertex { pos: (1, 12), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 11), d: Right, straight: 2 }, 2)], Vertex { pos: (0, 9), d: Above, straight: 0 }: [(Vertex { pos: (0, 8), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 10), d: Left, straight: 0 }, 3), (Vertex { pos: (1, 9), d: Above, straight: 1 }, 5)], Vertex { pos: (0, 11), d: Above, straight: 3 }: [(Vertex { pos: (0, 10), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 12), d: Left, straight: 0 }, 3)], Vertex { pos: (0, 12), d: Left, straight: 2 }: [(Vertex { pos: (1, 12), d: Above, straight: 0 }, 3)], Vertex { pos: (0, 10), d: Right, straight: 3 }: [(Vertex { pos: (1, 10), d: Above, straight: 0 }, 6)], Vertex { pos: (0, 5), d: Above, straight: 3 }: [(Vertex { pos: (0, 4), d: Right, straight: 0 }, 4), (Vertex { pos: (0, 6), d: Left, straight: 0 }, 2)], Vertex { pos: (0, 6), d: Above, straight: 3 }: [(Vertex { pos: (0, 5), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 7), d: Left, straight: 0 }, 3)], Vertex { pos: (0, 6), d: Above, straight: 0 }: [(Vertex { pos: (0, 5), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 7), d: Left, straight: 0 }, 3), (Vertex { pos: (1, 6), d: Above, straight: 1 }, 3)], Vertex { pos: (0, 7), d: Left, straight: 2 }: [(Vertex { pos: (1, 7), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 8), d: Left, straight: 3 }, 1)], Vertex { pos: (0, 3), d: Below, straight: 2 }: [(Vertex { pos: (0, 2), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 4), d: Left, straight: 0 }, 4)], Vertex { pos: (0, 1), d: Right, straight: 0 }: [(Vertex { pos: (1, 1), d: Above, straight: 0 }, 2), (Vertex { pos: (0, 0), d: Right, straight: 1 }, 2)], Vertex { pos: (0, 12), d: Left, straight: 3 }: [(Vertex { pos: (1, 12), d: Above, straight: 0 }, 3)], Vertex { pos: (0, 11), d: Left, straight: 1 }: [(Vertex { pos: (1, 11), d: Above, straight: 0 }, 2), (Vertex { pos: (0, 12), d: Left, straight: 2 }, 3)], Vertex { pos: (0, 5), d: Left, straight: 2 }: [(Vertex { pos: (1, 5), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 6), d: Left, straight: 3 }, 2)], Vertex { pos: (0, 3), d: Left, straight: 0 }: [(Vertex { pos: (1, 3), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 4), d: Left, straight: 1 }, 4)], Vertex { pos: (0, 7), d: Left, straight: 3 }: [(Vertex { pos: (1, 7), d: Above, straight: 0 }, 5)], Vertex { pos: (0, 1), d: Below, straight: 1 }: [(Vertex { pos: (0, 0), d: Right, straight: 0 }, 2), (Vertex { pos: (0, 2), d: Left, straight: 0 }, 1)], Vertex { pos: (0, 3), d: Above, straight: 1 }: [(Vertex { pos: (0, 2), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 4), d: Left, straight: 0 }, 4), (Vertex { pos: (1, 3), d: Above, straight: 2 }, 5)], Vertex { pos: (0, 8), d: Below, straight: 2 }: [(Vertex { pos: (0, 7), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 9), d: Left, straight: 0 }, 1)], Vertex { pos: (0, 2), d: Above, straight: 1 }: [(Vertex { pos: (0, 1), d: Right, straight: 0 }, 4), (Vertex { pos: (0, 3), d: Left, straight: 0 }, 3), (Vertex { pos: (1, 2), d: Above, straight: 2 }, 1)], Vertex { pos: (0, 0), d: Left, straight: 1 }: [(Vertex { pos: (1, 0), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 1), d: Left, straight: 2 }, 4)], Vertex { pos: (0, 5), d: Right, straight: 1 }: [(Vertex { pos: (1, 5), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 4), d: Right, straight: 2 }, 4)], Vertex { pos: (0, 3), d: Above, straight: 2 }: [(Vertex { pos: (0, 2), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 4), d: Left, straight: 0 }, 4), (Vertex { pos: (1, 3), d: Above, straight: 3 }, 5)], Vertex { pos: (0, 7), d: Right, straight: 0 }: [(Vertex { pos: (1, 7), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 6), d: Right, straight: 1 }, 2)], Vertex { pos: (0, 1), d: Left, straight: 1 }: [(Vertex { pos: (1, 1), d: Above, straight: 0 }, 2), (Vertex { pos: (0, 2), d: Left, straight: 2 }, 1)], Vertex { pos: (0, 2), d: Left, straight: 0 }: [(Vertex { pos: (1, 2), d: Above, straight: 0 }, 1), (Vertex { pos: (0, 3), d: Left, straight: 1 }, 3)], Vertex { pos: (0, 7), d: Left, straight: 1 }: [(Vertex { pos: (1, 7), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 8), d: Left, straight: 2 }, 1)], Vertex { pos: (0, 8), d: Left, straight: 2 }: [(Vertex { pos: (1, 8), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 9), d: Left, straight: 3 }, 1)], Vertex { pos: (0, 9), d: Above, straight: 3 }: [(Vertex { pos: (0, 8), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 10), d: Left, straight: 0 }, 3)], Vertex { pos: (0, 10), d: Above, straight: 0 }: [(Vertex { pos: (0, 9), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 11), d: Left, straight: 0 }, 2), (Vertex { pos: (1, 10), d: Above, straight: 1 }, 6)], Vertex { pos: (0, 5), d: Above, straight: 0 }: [(Vertex { pos: (0, 4), d: Right, straight: 0 }, 4), (Vertex { pos: (0, 6), d: Left, straight: 0 }, 2), (Vertex { pos: (1, 5), d: Above, straight: 1 }, 5)], Vertex { pos: (0, 5), d: Left, straight: 1 }: [(Vertex { pos: (1, 5), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 6), d: Left, straight: 2 }, 2)], Vertex { pos: (0, 8), d: Left, straight: 3 }: [(Vertex { pos: (1, 8), d: Above, straight: 0 }, 3)], Vertex { pos: (0, 11), d: Left, straight: 0 }: [(Vertex { pos: (1, 11), d: Above, straight: 0 }, 2), (Vertex { pos: (0, 12), d: Left, straight: 1 }, 3)], Vertex { pos: (0, 5), d: Below, straight: 2 }: [(Vertex { pos: (0, 4), d: Right, straight: 0 }, 4), (Vertex { pos: (0, 6), d: Left, straight: 0 }, 2)], Vertex { pos: (0, 11), d: Left, straight: 2 }: [(Vertex { pos: (1, 11), d: Above, straight: 0 }, 2), (Vertex { pos: (0, 12), d: Left, straight: 3 }, 3)], Vertex { pos: (0, 12), d: Above, straight: 0 }: [(Vertex { pos: (0, 11), d: Right, straight: 0 }, 2), (Vertex { pos: (1, 12), d: Above, straight: 1 }, 3)], Vertex { pos: (0, 12), d: Above, straight: 2 }: [(Vertex { pos: (0, 11), d: Right, straight: 0 }, 2), (Vertex { pos: (1, 12), d: Above, straight: 3 }, 3)], Vertex { pos: (0, 12), d: Left, straight: 0 }: [(Vertex { pos: (1, 12), d: Above, straight: 0 }, 3)], Vertex { pos: (0, 4), d: Above, straight: 1 }: [(Vertex { pos: (0, 3), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 5), d: Left, straight: 0 }, 3), (Vertex { pos: (1, 4), d: Above, straight: 2 }, 4)], Vertex { pos: (0, 5), d: Above, straight: 2 }: [(Vertex { pos: (0, 4), d: Right, straight: 0 }, 4), (Vertex { pos: (0, 6), d: Left, straight: 0 }, 2), (Vertex { pos: (1, 5), d: Above, straight: 3 }, 5)], Vertex { pos: (0, 11), d: Below, straight: 3 }: [(Vertex { pos: (0, 10), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 12), d: Left, straight: 0 }, 3)], Vertex { pos: (0, 8), d: Right, straight: 2 }: [(Vertex { pos: (1, 8), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 7), d: Right, straight: 3 }, 3)], Vertex { pos: (0, 8), d: Above, straight: 1 }: [(Vertex { pos: (0, 7), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 9), d: Left, straight: 0 }, 1), (Vertex { pos: (1, 8), d: Above, straight: 2 }, 3)], Vertex { pos: (0, 8), d: Below, straight: 3 }: [(Vertex { pos: (0, 7), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 9), d: Left, straight: 0 }, 1)], Vertex { pos: (0, 0), d: Left, straight: 0 }: [(Vertex { pos: (1, 0), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 1), d: Left, straight: 1 }, 4)], Vertex { pos: (0, 7), d: Above, straight: 3 }: [(Vertex { pos: (0, 6), d: Right, straight: 0 }, 2), (Vertex { pos: (0, 8), d: Left, straight: 0 }, 1)], Vertex { pos: (0, 6), d: Below, straight: 2 }: [(Vertex { pos: (0, 5), d: Right, straight: 0 }, 3), (Vertex { pos: (0, 7), d: Left, straight: 0 }, 3)], Vertex { pos: (0, 6), d: Left, straight: 0 }: [(Vertex { pos: (1, 6), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 7), d: Left, straight: 1 }, 3)], Vertex { pos: (0, 3), d: Below, straight: 1 }: [(Vertex { pos: (0, 2), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 4), d: Left, straight: 0 }, 4)], Vertex { pos: (0, 7), d: Below, straight: 1 }: [(Vertex { pos: (0, 6), d: Right, straight: 0 }, 2), (Vertex { pos: (0, 8), d: Left, straight: 0 }, 1)], Vertex { pos: (0, 7), d: Right, straight: 3 }: [(Vertex { pos: (1, 7), d: Above, straight: 0 }, 5)], Vertex { pos: (0, 9), d: Above, straight: 2 }: [(Vertex { pos: (0, 8), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 10), d: Left, straight: 0 }, 3), (Vertex { pos: (1, 9), d: Above, straight: 3 }, 5)], Vertex { pos: (0, 0), d: Right, straight: 3 }: [(Vertex { pos: (1, 0), d: Above, straight: 0 }, 3)], Vertex { pos: (0, 0), d: Right, straight: 2 }: [(Vertex { pos: (1, 0), d: Above, straight: 0 }, 3)], Vertex { pos: (0, 1), d: Below, straight: 2 }: [(Vertex { pos: (0, 0), d: Right, straight: 0 }, 2), (Vertex { pos: (0, 2), d: Left, straight: 0 }, 1)], Vertex { pos: (0, 9), d: Right, straight: 0 }: [(Vertex { pos: (1, 9), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 8), d: Right, straight: 1 }, 1)], Vertex { pos: (0, 12), d: Right, straight: 0 }: [(Vertex { pos: (1, 12), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 11), d: Right, straight: 1 }, 2)], Vertex { pos: (0, 3), d: Above, straight: 0 }: [(Vertex { pos: (0, 2), d: Right, straight: 0 }, 1), (Vertex { pos: (0, 4), d: Left, straight: 0 }, 4), (Vertex { pos: (1, 3), d: Above, straight: 1 }, 5)], Vertex { pos: (0, 0), d: Left, straight: 3 }: [(Vertex { pos: (1, 0), d: Above, straight: 0 }, 3)], Vertex { pos: (0, 0), d: Above, straight: 2 }: [(Vertex { pos: (0, 1), d: Left, straight: 0 }, 4), (Vertex { pos: (1, 0), d: Above, straight: 3 }, 3)], Vertex { pos: (0, 2), d: Right, straight: 3 }: [(Vertex { pos: (1, 2), d: Above, straight: 0 }, 1)], Vertex { pos: (0, 3), d: Right, straight: 2 }: [(Vertex { pos: (1, 3), d: Above, straight: 0 }, 5), (Vertex { pos: (0, 2), d: Right, straight: 3 }, 1)], Vertex { pos: (0, 0), d: Above, straight: 0 }: [(Vertex { pos: (0, 1), d: Left, straight: 0 }, 4), (Vertex { pos: (1, 0), d: Above, straight: 1 }, 3)], Vertex { pos: (0, 6), d: Left, straight: 2 }: [(Vertex { pos: (1, 6), d: Above, straight: 0 }, 3), (Vertex { pos: (0, 7), d: Left, straight: 3 }, 3)]} 
+Vertex { pos: (0, 0), d: Left, straight: 0 }
+Vertex { pos: (1, 0), d: Above, straight: 0 }
