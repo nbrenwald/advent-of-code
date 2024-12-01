@@ -1,13 +1,16 @@
 use std::fs::{read_to_string, File};
 use std::io;
+mod part_2;
+mod part_1;
+
 use std::io::BufReader;
+use regex::Regex;
+
+const PATH: &str = "/Users/nbrenwald/private_src/advent-of-code/2024/data/day01.txt";
 
 fn main() -> io::Result<()> {
-    //let file = File::open("sample.txt")?;
-    //let reader = BufReader::new(file);
+    part_1::part1(PATH);
+    part_2::part2(PATH);
 
-    for line in read_to_string("/Users/nbrenwald/private_src/advent-of-code/2024/data/day01-sample.txt").unwrap().lines() {
-        println!("{}", line.to_string());
-    }
     Ok(())
 }
