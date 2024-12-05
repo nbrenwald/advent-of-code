@@ -2,16 +2,22 @@ use std::fs::{read_to_string, File};
 use std::io;
 use regex::Regex;
 
-pub(crate) fn part2(path: &str) -> io::Result<()> {
+pub(crate) fn part2_prep(path: &str) -> io::Result<()> {
 
-    let mut result:i64 = 0;
+
     let mut input: String = String::new();
     for line in read_to_string(path)?.lines() {
         println!("Searching {}", line);
         input = format!("{}{}", input, line);
     }
 
+    part2(input);
+    Ok(())
 
+}
+
+fn part2(input: String) -> i64 {
+    let mut result:i64 = 0;
         let re = Regex::new(r"do\(\)").unwrap();
         //let dos: Vec<_> = re.find_iter(line).map(|m| m.as_str()).collect();
         let does: Vec<_> = input.split("do()").collect();
@@ -28,10 +34,7 @@ pub(crate) fn part2(path: &str) -> io::Result<()> {
 
         }
 
-    println!("Final result: {}", result);
-    //188534791 too high
-    //79967531 too high
-    Ok(())
+   result
 }
 
 
@@ -51,4 +54,16 @@ fn calc(input: &str) -> i64 {
 
     }
     result
+}
+
+
+#[cfg(test)]
+mod tests {
+    // Note this useful idiom: importing names from outer (for mod tests) scope.
+    use super::*;
+
+    #[test]
+    fn test_part2() {
+        assert_eq!(part2("xmul(2,4)&mul[3,7]!^don't()_mul(5,5)+mul(32,64](mul(11,8)undo()?mul(8,5))".to_string()), 48);
+    }
 }

@@ -3,11 +3,11 @@ use std::io;
 mod part_2;
 mod part_1;
 
-const PATH: &str = "/Users/nbrenwald/private_src/advent-of-code/2024/data/day03.txt";
+const PATH: &str = "/Users/nbrenwald/private_src/advent-of-code/2024/data/day05.txt";
 
 fn main() -> io::Result<()> {
     //part_1::part1(PATH);
-    part_2::part2_prep(PATH);
+    part_2::part2(PATH);
 
     Ok(())
 }
