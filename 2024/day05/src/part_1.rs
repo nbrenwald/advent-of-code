@@ -1,28 +1,6 @@
 use std::collections::{HashMap, HashSet};
-use std::fs::{read_to_string, File};
 use std::io;
-
-fn group_text(file: &str) -> Vec<Vec<String>> {
-    let mut group:Vec<String> = Vec::new();
-    let mut text:Vec<Vec<String>> = Vec::new();
-    for line in read_to_string(file).unwrap().lines() {
-        if line == "" {
-            if group.len() != 0 {
-                text.push(group);
-                group = Vec::new();
-            }
-        }
-        else {
-            group.push(line.to_string());
-        }
-    }
-    if group.len() != 0 {
-        text.push(group);
-    }
-    text
-}
-
-
+use utils::group_text;
 
 pub(crate) fn part1(path: &str) -> io::Result<()> {
 
