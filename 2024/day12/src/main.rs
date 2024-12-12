@@ -6,7 +6,7 @@ use utils::Position;
 mod part_2;
 mod part_1;
 
-const PATH: &str = "/Users/nbrenwald/private_src/advent-of-code/2024/data/day12-sample.txt";
+const PATH: &str = "/Users/nbrenwald/private_src/advent-of-code/2024/data/day12.txt";
 
 fn main() -> io::Result<()> {
 
@@ -19,9 +19,8 @@ fn main() -> io::Result<()> {
     }
     println!("{:?}", map);
 
-    //part_1::run(&numbers);
-
-    //part_2::run(&numbers);
+    //part_1::run(&map);
+    part_2::run(&map);
 
     Ok(())
 }

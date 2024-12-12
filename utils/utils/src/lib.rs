@@ -24,7 +24,7 @@ pub fn add(left: u64, right: u64) -> u64 {
     left + right
 }
 
-#[derive(Clone, Copy, PartialEq, Hash, Eq)]
+#[derive(Debug, Clone, Copy, PartialEq, Hash, Eq)]
 pub enum direction {
     NORTH,
     SOUTH,
@@ -36,6 +36,12 @@ pub enum direction {
 pub struct Position {
     pub x: i32,
     pub y: i32
+}
+
+#[derive(Debug, Copy, Clone, PartialEq, Eq, Hash)]
+pub struct GridPosition {
+    pub row: usize,
+    pub col: usize
 }
 
 #[derive(Debug, Copy, Clone)]
