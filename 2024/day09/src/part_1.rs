@@ -4,7 +4,7 @@ pub(crate) fn run(diskMap: &Vec<char>){
 
     let mut result:u64 = 0;
 
-    println!("Disk Map: {:?}", diskMap);
+    //println!("Disk Map: {:?}", diskMap);
 
     let mut uncompressed: Vec<String> = Vec::new();
 
@@ -13,10 +13,12 @@ pub(crate) fn run(diskMap: &Vec<char>){
        let mut cNum = c.to_digit(10).unwrap();
 
        if index % 2 == 0 {
+           let fileId = index as u32 / 2;
+
            //file
            while cNum > 0 {
-               let fileId = index as u32 / 2;
-               uncompressed.push( fileId.to_string());
+               let fileIdString =   fileId.to_string();
+               uncompressed.push( fileIdString);
                cNum -= 1;
            }
        }
@@ -30,7 +32,7 @@ pub(crate) fn run(diskMap: &Vec<char>){
 
     }
 
-    println!("Uncompressed: {:?}", uncompressed);
+    //println!("Uncompressed: {:?}", uncompressed);
 
     let mut defragmented: Vec<String> = uncompressed;
     let mut i = 0;
@@ -46,7 +48,7 @@ pub(crate) fn run(diskMap: &Vec<char>){
         }
     }
 
-    println!("Uncompressed: {:?}", defragmented);
+    //println!("Uncompressed: {:?}", defragmented);
 
     for (i,c) in defragmented.iter().enumerate() {
         if *c == "." {break;}

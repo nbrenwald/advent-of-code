@@ -12,7 +12,7 @@ fn main() -> io::Result<()> {
 
 
     let diskMap: Vec<char> =  read_to_string(PATH).unwrap().lines().collect::<Vec<_>>()[0].chars().collect();
-    part_1::run(&diskMap);
+    //part_1::run(&diskMap);
 
     // Can't use diskMap again as ownership was moved to run, then diskmap was dropped when run completed.
     part_2::run(&diskMap);

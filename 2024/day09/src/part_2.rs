@@ -5,12 +5,12 @@ pub(crate) fn run(diskMap: &Vec<char>) {
 
     let mut result:u64 = 0;
 
-    println!("Disk Map: {:?}", diskMap);
+    //println!("Disk Map: {:?}", diskMap);
 
 
     let mut uncompressed: Vec<String> = Vec::new();
-    let mut fileLocations : BTreeMap<u32, (u32, u32)> = BTreeMap::new();
-    let mut freeLocations : BTreeMap<u32, u32> = BTreeMap::new();
+    let mut fileLocations : BTreeMap<u32, (u32, u32)> = BTreeMap::new(); // fileId, start index, length
+    let mut freeLocations : BTreeMap<u32, u32> = BTreeMap::new(); //start index, length
     let mut memLocation = 0;
     for (index, c) in  diskMap.iter().enumerate() {
 
@@ -39,9 +39,9 @@ pub(crate) fn run(diskMap: &Vec<char>) {
 
     }
 
-    println!("Uncompressed: {:?}", uncompressed);
-    println!("File Locations: {:?}", fileLocations);
-    println!("Free Locations: {:?}", freeLocations);
+    //println!("Uncompressed: {:?}", uncompressed);
+    //println!("File Locations: {:?}", fileLocations);
+   // println!("Free Locations: {:?}", freeLocations);
 
     let keys:Vec<&u32> = fileLocations.keys().rev().collect();
     for fileId in &keys {
@@ -78,7 +78,7 @@ pub(crate) fn run(diskMap: &Vec<char>) {
         }
     }
 
-    println!("Unfragmented: {:?}", uncompressed);
+    //println!("Unfragmented: {:?}", uncompressed);
 
     for (i,c) in uncompressed.iter().enumerate() {
         if *c != "." {
