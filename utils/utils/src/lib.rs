@@ -1,3 +1,4 @@
+use std::cmp::Ordering;
 use std::fs::read_to_string;
 
 pub fn group_text(file: &str) -> Vec<Vec<String>> {
@@ -44,10 +45,56 @@ pub struct GridPosition {
     pub col: usize
 }
 
+#[derive(Copy, Clone, Eq, PartialEq, Hash, Debug)]
+pub struct State {
+    pub cost: usize,
+    pub position: GridPosition,
+}
+
+// The priority queue depends on `Ord`.
+// Explicitly implement the trait so the queue becomes a min-heap
+// instead of a max-heap.
+impl Ord for State {
+    fn cmp(&self, other: &Self) -> Ordering {
+        // Notice that we flip the ordering on costs.
+        // In case of a tie we compare positions - this step is necessary
+        // to make implementations of `PartialEq` and `Ord` consistent.
+        other.cost.cmp(&self.cost)
+            .then_with(|| self.position.row.cmp(&other.position.row))
+            .then_with(|| self.position.col.cmp(&other.position.col))
+    }
+}
+
+// `PartialOrd` needs to be implemented as well.
+impl PartialOrd for State {
+    fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
+        Some(self.cmp(other))
+    }
+}
+
+#[derive(Debug, Copy, Clone, PartialEq, Eq, Hash)]
+pub struct GridPositionAndDirection {
+    pub pos: GridPosition,
+    pub dir: direction
+}
+
 #[derive(Debug, Copy, Clone)]
 pub struct Segment {
     pub first: Position,
     pub second: Position
+}
+
+pub fn print_grid<T: std::fmt::Display>(map: &Vec<Vec<T>>) {
+    for (i, r) in map.iter().enumerate() {
+        for (j, c) in r.iter().enumerate() {
+            print!("{}", c);
+        }
+        println!();
+    }
+}
+
+pub fn in_grid<T>(row: i32, col:i32, map: &Vec<Vec<T>>) -> bool {
+    row > 0 && col > 0 && row  < map.len() as i32 && col < map[0].len() as i32
 }
 
 pub fn on_line(p:Position, s:&Segment) -> bool {
