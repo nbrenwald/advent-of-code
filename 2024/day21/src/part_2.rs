@@ -10,8 +10,6 @@ pub(crate) fn run(codes: &Vec<String>) {
     for code in codes {
         let numeric_code = &code[0..3].parse::<usize>().unwrap();
         let mut start:char =  'A';
-        let mut directions: Vec<char> = Vec::new();
-        let mut directions2: Vec<char> = Vec::new();
         let mut paths:Vec<Vec<char>> = Vec::new();
         for digit in code.chars() {
             //how to go from A to digit
@@ -23,8 +21,6 @@ pub(crate) fn run(codes: &Vec<String>) {
         println!("{:?}", paths);
         println!("{:?}", paths.len());
 
-        let mut code_min:usize  = 0;
-        //work out the shortest path from the first two characters. add to the next two and so on.else
 
         let mut code_min:u64 = u64::MAX;
         let mut cache :HashMap<(Vec<char>,char,char,usize),u64> = HashMap::new();
@@ -40,68 +36,38 @@ pub(crate) fn run(codes: &Vec<String>) {
 
     }
     println!("{}", result);
-    //107430 too high
-    //107430 too high
 }
 
 
 fn recursive(p:&Vec<char>, prev:char, index:usize, depth: usize, cache: &mut HashMap<(Vec<char>,char,char,usize),u64>) -> u64 {
     //println!("recursing on start = {}, end={} at index ={} d={}", prev, p[index], index, depth);
-
     if cache.contains_key(&(p.clone(), prev, p[index], depth)) {
         return *cache.get(&(p.clone(),prev, p[index], depth)).unwrap();
     }
+
     let mut result = 0;
 
-    let shortest_paths = get_directions(prev,p[index], Vec::new(), &get_direction_keypad());
-    //println!("shortest path {:?}", shortest_paths);
+    // Get the different paths to go from prev to the next char
+    let start_position = get_position(prev, &get_direction_keypad());
+    let end_position = get_position(p[index], &get_direction_keypad());
+    let shortest_paths: Vec<Vec<char>> = get_paths(start_position,end_position, &get_direction_keypad(), &Vec::new() );
+
+    // Get shortest path for the rest of this sequence
     if index < p.len() -1 {
         result += recursive(p, p[index], index + 1, depth, cache);
     }
-    if depth  == 0 {
-        let mut sp_min = u64::MAX;
-        for sp in &shortest_paths {
-            sp_min = min(sp_min, sp.len() as u64);
-        }
-        //println!("returning {:?}", sp_min);
-        result +=  sp_min;
-    } else {
-
-        let mut sp = u64::MAX;
+    let mut sp = u64::MAX;
     for path in &shortest_paths {
-
-
-
-         sp  = min(sp, recursive(path, 'A',0, depth - 1, cache));
-
-      }
-        result += sp;
-
+        if depth > 0 {
+            sp  = min(sp, recursive(path, 'A',0, depth - 1, cache));
+        }
+        else {
+            sp = min(sp, path.len() as u64);
+        }
     }
+    result += sp;
     cache.insert((p.clone(), prev, p[index], depth),result);
     result
-
-}
-
-fn translate(paths:&Vec<Vec<char>>) -> Vec<Vec<char>>{
-    let mut start:char =  'A';
-    let mut translation_results:Vec<Vec<char>> = Vec::new();
-    for path in paths {
-        let mut translations:Vec<Vec<char>> = Vec::new();
-        //println!("translating {:?}",path);
-        for digit in path {
-            //how to go from A to digit
-            //println!("How to go from {:?} to {:?}" ,start, digit);
-            translations = get_directions(start, *digit, translations, &get_direction_keypad());
-            //println!("translation is now {:?}", translation);
-            start = *digit;
-        }
-        for t in &translations {
-            translation_results.push(t.clone());
-        }
-
-    }
-    translation_results
 }
 
 
@@ -112,7 +78,7 @@ fn get_directions(start: char, end: char, paths:Vec<Vec<char>>,keypad: &Vec<Vec<
     let e =  get_position(end, keypad);
     //println!("{:?}",get_paths(s,e, keypad, &paths));
     let result = get_paths(s,e, keypad, &paths);
-    return result;
+    result
 }
 
 //BFS each solution can add an ^ <
